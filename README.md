@@ -1,5 +1,19 @@
 # JDBC
  JDBC
+- Java Data Base Connectivity
+- It is standard api provided by orabcle for java applications to interat with different set of database.
+- required knowledge :-
+    - java
+    - classes
+    - interface
+    - polymorphism
+- JDBC concept depends on runtime polymorphism
+- JDBC API is mediator between java application and database
+- JDBC is base of hibernate and spring orm
+- architecture :-
+    javaapplication --> JDBC API --> Driver --> database
+                    <--          <--        <--
+
 
 
 # Requirement
@@ -10,6 +24,8 @@
 
 # Setup jar file
 - mysql jar file
+
+
 
 # steps to connect with database
 - import java.sql.*;
@@ -52,3 +68,14 @@ executeUpdate() :- insert, update, delete (not get data)
 
 - Close the connection :-
     - con.Close();
+
+
+
+
+# RESULT SET :- 
+- result set is an interface in jdbc api
+- it is use for select data and store data in resultset
+- data get from database in resultset object
+- it is store data in table format.
+- it has method next()  it will check next value is available or not.
+- 

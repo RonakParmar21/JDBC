@@ -15,7 +15,7 @@ public class Main {
             ResultSet rs = st.executeQuery(query);
 
             while (rs.next()) {
-                System.out.println("-----------------------------------------------");
+                System.out.println("-----------------------------------------------"); 
                 System.out.println("User id is : " + rs.getInt(1));
                 System.out.println("User name is : " + rs.getString(2));
                 System.out.println("User city is : " + rs.getString(3));
